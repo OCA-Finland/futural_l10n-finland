@@ -21,13 +21,22 @@
 {
     "name": "eInvoice Operator Display Name Fix",
     "summary": "Fix TypeError in eInvoice Operator _compute_display_name",
-    "version": "17.0.1.0.0",
+    "version": "18.0.0.1.0",
     "category": "Other",
     "website": "https://github.com/tawasta/l10n-finland",
     "author": "Futural",
+    "maintainer": "Futural",
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["l10n_fi_edicode"],
+    "depends": [
+        "l10n_fi_edicode"
+    ],
     "data": [],
+    "external_dependencies": {
+        "python": [],
+        "bin": []
+    },
+    "assets": {}
 }
+

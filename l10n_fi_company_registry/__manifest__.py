@@ -16,10 +16,12 @@
 #    You should have received a copy of the GNU Affero General Public License
 #    along with this program. If not, see http://www.gnu.org/licenses/agpl.html
 #
+##############################################################################
+
 {
     "name": "Company registry (business id) for Finnish companies",
     "summary": "Adds validation and auto-fills company registry from VAT",
-    "version": "17.0.1.0.7",
+    "version": "18.0.0.1.0",
     "category": "CRM",
     "website": "https://github.com/tawasta/l10n-finland",
     "author": "Futural, Odoo Community Association (OCA)",
@@ -28,15 +30,15 @@
     "installable": True,
     "external_dependencies": {
         "python": [],
-        "bin": [],
+        "bin": []
     },
     "depends": [
-        "base",
+        "base"
     ],
     "data": [
-        "views/res_partner.xml",
+        "views/res_partner.xml"
     ],
     "post_init_hook": "post_init_hook",
     "demo": [],
-    "qweb": [],
+    "assets": {}
 }

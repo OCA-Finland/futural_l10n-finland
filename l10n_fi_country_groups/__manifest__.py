@@ -21,7 +21,7 @@
 {
     "name": "Country Groups",
     "summary": "Adds Country Groups",
-    "version": "17.0.1.0.0",
+    "version": "18.0.0.1.0",
     "category": "Other",
     "website": "https://github.com/tawasta/l10n-finland",
     "author": "Futural",

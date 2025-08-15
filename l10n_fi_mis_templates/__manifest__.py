@@ -20,13 +20,26 @@
 {
     "name": "Profit & Loss / Balance sheet MIS templates subsections",
     "summary": "Add subsections for MIS templates",
-    "version": "17.0.1.0.1",
+    "version": "18.0.0.1.0",
     "category": "Localization",
     "website": "https://github.com/tawasta/l10n-finland",
     "author": "Futural",
+    "maintainer": "Futural",
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["l10n_fi", "mis_template_financial_report"],
-    "data": ["data/mis_report_kpi_bs.xml", "data/mis_report_kpi_pl.xml"],
+    "depends": [
+        "l10n_fi",
+        "mis_template_financial_report"
+    ],
+    "data": [
+        "data/mis_report_kpi_bs.xml",
+        "data/mis_report_kpi_pl.xml"
+    ],
+    "external_dependencies": {
+        "python": [],
+        "bin": []
+    },
+    "assets": {}
 }
+
