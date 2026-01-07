@@ -34,7 +34,8 @@
     ],
     "data": [
         "data/mis_report_kpi_bs.xml",
-        "data/mis_report_kpi_pl.xml"
+        "data/mis_report_kpi_pl.xml",
+        "data/mis_report_kpi_vat.xml"
     ],
     "external_dependencies": {
         "python": [],
